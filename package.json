@@ -1,8 +1,12 @@
 {
     "name": "k121",
-    "version": "1.0.0", 
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {},
+    "devDependencies": {},
     "scripts": {
-        "start": "nodemon backend/server.js"
-    }
-}
-  
+      "start": "nodemon server.js"
+    },
+    "author": "Pedro Guerreiro",
+    "license": "ISC"
+  }
