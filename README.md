@@ -17,5 +17,5 @@ K121 - Amigo secreto
 - Mongo database is hosted on mlab.com
 
 # Demo
-- A demo is avaible at http://18.217.23.82:3000/ 
+- A demo is avaible at <a target="_blank" href="http://18.217.23.82:3000/">Demo</a> 
 
