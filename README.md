@@ -8,7 +8,7 @@ K121 - Amigo secreto
 # Instalation
 - Open your terminal and type -> git clone https://github.com/pedroprcgm/k121.git
 - Enter project folder -> cd k121
-- Install frontend mocules -> cd frontend -> npm install
+- Install frontend modules -> cd frontend -> npm install
 - Install backend modules -> cd ../backend -> npm install 
-- Run project -> npm start
+- Run project, still on backend folder and type -> npm start
 - Open http://localhost:3000
