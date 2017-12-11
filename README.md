@@ -12,3 +12,7 @@ K121 - Amigo secreto
 - Install backend modules -> cd ../backend -> npm install 
 - Run project, still on backend folder and type -> npm start
 - Open http://localhost:3000
+
+# Obs 
+- Mongo database is hosted on mlab.com
+

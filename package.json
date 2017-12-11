@@ -1,0 +1,8 @@
+{
+    "name": "k121",
+    "version": "1.0.0", 
+    "scripts": {
+        "start": "nodemon backend/server.js"
+    }
+}
+  
