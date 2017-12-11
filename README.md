@@ -16,3 +16,6 @@ K121 - Amigo secreto
 # Obs 
 - Mongo database is hosted on mlab.com
 
+# Demo
+- A demo is avaible at http://18.217.23.82:3000/ 
+
