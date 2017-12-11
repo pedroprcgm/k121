@@ -1,0 +1,36 @@
+
+<ul>
+	<p class="list-title">Lista de Participantes</p>
+	<li class="row" *ngFor="let person of people">
+		<form (ngSubmit)="save(person);">
+			<div class="col-xs-12 col-sm-4">
+				<input type="text" class="form-control" name="name" [(ngModel)]="person.name" placeholder="Nome" required>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<input type="email" id='email' class="form-control" name="mail" [(ngModel)]="person.mail" placeholder="E-mail" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" required>
+			</div>
+			<div class="col-xs-12 col-sm-4 text-center">
+				<button class="btn-prm" type="submit" *ngIf="!person._id">
+					<span class="glyphicon glyphicon-ok"></span>
+					Salvar
+				</button>
+				<button class="btn-prm" type="submit" *ngIf="person._id">
+					<span class="glyphicon glyphicon-ok"></span>
+					Atualizar
+				</button>
+				<button class="btn-aux" (click)="delete(person);">
+					<span class="glyphicon glyphicon-remove"></span>
+					Deletar
+				</button>				
+			</div>
+		</form>
+	</li>
+</ul>	
+			
+<div class="pull-right">
+	<button class="btn btn-primary" (click)="pushPerson();">Adicionar participante</button>
+</div>
+
+<div class="pull-left">
+	<button class="btn btn-success" (click)="confirm();">Confirmar</button>
+</div>	
