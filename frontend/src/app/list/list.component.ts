@@ -54,7 +54,8 @@ export class ListComponent {
 		if(person._id) {
 			this.personService.delete(person._id)
 			.then( success => {				
-				this.toastr.success("Deletado!");			
+				this.toastr.success("Deletado!");	
+				this.people.splice(index, 1);		
 			})
 			.catch(err => this.toastr.error('Ocorreu um erro', 'Oops!'));			
 		} else {
